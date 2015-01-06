@@ -11,8 +11,6 @@
     body {
         font-family: Helvetica, Arial, Roboto, sans-serif;
         font-weight: 400;
-        padding-left: 0px;
-        padding-right: 0px;
         background: #f9f9f9;
     }
     #s-lib-bc .breadcrumb,
@@ -28,10 +26,8 @@
         /* padding-left: 15px;
         padding-right: 15px; */
     }
-    .container {
-        padding-left: 0;
-    }
     .uq-header {
+margin: 0 -15px;
         background: #8631a6 !important;
         /* Old browsers */
         /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -50,7 +46,7 @@
         /* W3C */
         filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#8631a6', endColorstr='#5e2179', GradientType=0) !important;
         /* IE6-8 */
-        height: 75px;
+        height: 70px;
         margin-bottom: 0px;
         border: none;
         -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
@@ -87,11 +83,11 @@
     .container-fluid>.navbar-header,
     .container>.navbar-collapse,
     .container-fluid>.navbar-collapse {
-        margin: 0;
+        margin: 0 -15px;
     }
     .uq-header-logo {
         float: left;
-        margin-top: 12px;
+        margin-top: 10px;
         padding-right: 15px;
         border-right: 1px solid #c6a9d1;
     }
@@ -106,6 +102,16 @@
     .uq-library-header-logo:hover {
         color: #fff;
         text-decoration: none;
+    }
+@media (max-width: 479px) {
+        .uq-library-header-logo {
+            float: left;
+            color: #fff;
+            font-size: 16px;
+            margin-top: 22px;
+            margin-left: 15px;
+            -webkit-font-smoothing: antialiased;
+        }
     }
     /* styles for enclosing side nav */
     .s-lg-tabs-side > .nav {
@@ -200,7 +206,7 @@
         display: none;
     }
     .s-lib-box {
-        border-radius: 4px;
+        border-radius: 2px;
         box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
     }
     #s-lg-guide-main {
@@ -220,6 +226,7 @@
     }
     .uq-header .navbar-header {
         float: none;
+padding-left: 15px;
     }
     .tabs ul li {
         margin-bottom: -1px;
