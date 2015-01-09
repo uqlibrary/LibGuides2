@@ -11,7 +11,7 @@
     body {
         font-family: Helvetica, Arial, Roboto, sans-serif;
         font-weight: 400;
-        background: #f5f5f5;
+        background: #fafafa;
     }
     #s-lib-bc .breadcrumb,
     #s-lib-admin-bc .breadcrumb {
@@ -27,7 +27,7 @@
         padding-right: 15px; */
     }
     .uq-header {
-margin: 0 -15px;
+        margin: 0 -15px;
         background: #8631a6 !important;
         /* Old browsers */
         /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -46,7 +46,7 @@ margin: 0 -15px;
         /* W3C */
         filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#8631a6', endColorstr='#5e2179', GradientType=0) !important;
         /* IE6-8 */
-        height: 70px;
+        height: 60px;
         margin-bottom: 0px;
         border: none;
         -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
@@ -87,6 +87,7 @@ margin: 0 -15px;
     }
     .uq-header-logo {
         float: left;
+        height: 40px;
         margin-top: 10px;
         padding-right: 15px;
         border-right: 1px solid #c6a9d1;
@@ -95,23 +96,13 @@ margin: 0 -15px;
         float: left;
         color: #fff;
         font-size: 24px;
-        margin-top: 16px;
+        margin-top: 10px;
         margin-left: 15px;
         -webkit-font-smoothing: antialiased;
     }
     .uq-library-header-logo:hover {
         color: #fff;
         text-decoration: none;
-    }
-@media (max-width: 479px) {
-        .uq-library-header-logo {
-            float: left;
-            color: #fff;
-            font-size: 16px;
-            margin-top: 22px;
-            margin-left: 15px;
-            -webkit-font-smoothing: antialiased;
-        }
     }
     /* styles for enclosing side nav */
     .s-lg-tabs-side > .nav {
@@ -139,6 +130,11 @@ margin: 0 -15px;
         border: 1px solid rgba(0, 0, 0, .15);
         -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
         box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    }
+    #s-lg-tabs-container {
+        padding-bottom: 1px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #ddd;
     }
     #s-lg-tabs-container .nav-pills > li > ul > li > a {
         background: none !important;
@@ -220,49 +216,61 @@ margin: 0 -15px;
         color: #212121;
         font-weight: 400;
         background: #fefefe;
-        border-bottom: 1px solid #5D8100;
+        border-bottom: 1px solid #ccc;
     }
     #s-lib-scroll-top {
         display: none !important;
     }
+    @media (max-width: 767px) {
+        .uq-header .navbar-header {
+            padding-left: 15px;
+        }
+    }
     .uq-header .navbar-header {
         float: none;
-padding-left: 15px;
     }
     .tabs ul li {
         margin-bottom: -1px;
         margin-top: 2px;
         margin-right: 4px;
         border-radius: 2px 2px 0px 0px;
-        background-color: #fefefe;
         padding: 0px 8px;
-        border-top: 1px solid #5D8100;
-        border-right: 1px solid #5D8100;
-        border-left: 1px solid #5D8100;
+        border-bottom: 4px solid #fafafa;
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+        transition: all .2s ease;
     }
     .tabs ul li:hover {
-        background-color: #eee;
+        color: #333 !important;
+        border-bottom: 4px solid #8CB800;
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+        transition: all .2s ease;
     }
     .tabs ul li a {
-        color: #3B5400 !important;
+        color: #333 !important;
+        background: transparent !important;
+        background-color: transparent;
+        border: none !important;
+    }
+    .tabs ul li a:hover {
+        color: #000 !important;
     }
     .tabs ul .active {
-        background-color: #5D8100 !important;
-        color: white !important;
+        border-bottom: 4px solid #8CB800;
+        /*background-color: #5D8100 !important;
+        color: white !important;*/
     }
     .tabs ul .active a span {
         font-weight: normal !important;
     }
     .tabs {
-        padding-bottom: 1px;
-        border-bottom: 1px solid #5D8100;
+        height: 30px;
         margin-bottom: 8px;
-    }
-    .tabs ul li a {
-        color: white;
-        background: transparent !important;
-        background-color: transparent;
-        border: none !important;
     }
     #s-lg-guide-tabs-title-bar {
         border: none !important;
