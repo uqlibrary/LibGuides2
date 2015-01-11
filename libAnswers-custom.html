@@ -14,7 +14,7 @@
         font-weight: 400;
         padding-left: 0px;
         padding-right: 0px;
-        background: #f9f9f9;
+        background: #fcfcfc;
     }
     #s-la-bc .breadcrumb {
         background: none;
@@ -24,10 +24,10 @@
         padding: 0px 10px 10px 0px;
     }
     a {
-        color: #2662E3;
+        color: #007e9e;
     }
     a:hover {
-        color: #840c99;
+        color: #007e9e;
     }
     .s-lib-header {
         padding-left: 15px;
@@ -97,6 +97,15 @@
     .uq-footer a {
         color: white;
     }
+    .uq-line {
+        height: 62px;
+        margin: -2px -15px;
+    }
+    #s-la-public-footer {
+        padding-bottom: 10px;
+        border-top: none;
+        background-color: transparent;
+    }
     .container>.navbar-header,
     .container-fluid>.navbar-header,
     .container>.navbar-collapse,
@@ -108,7 +117,11 @@
         height: 40px;
         margin-top: 10px;
         padding-right: 15px;
-        border-right: 1px solid #c6a9d1;
+    }
+    .uq-header-logo:hover,
+    .uq-header-logo:focus,
+    .uq-header-logo:active {
+        -webkit-filter: drop-shadow(0 0 1px #aaa);
     }
     .uq-library-header-logo {
         float: left;
@@ -117,6 +130,13 @@
         margin-top: 14px;
         margin-left: 15px;
         -webkit-font-smoothing: antialiased;
+    }
+    .uq-library-header-logo:hover,
+    .uq-library-header-logo:active,
+    .uq-library-header-logo:focus {
+        color: #fff;
+        text-decoration: none;
+        -webkit-filter: drop-shadow(0 0 1px #aaa);
     }
     .uq-library-header-logo:hover {
         color: #fff;
@@ -146,8 +166,7 @@
         background-clip: padding-box;
         border: 1px solid #ccc;
         border: 1px solid rgba(0, 0, 0, .15);
-        -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+        box-shadow: 0 2px 8px #ccc;
     }
     #s-lg-tabs-container .nav-pills > li > ul > li > a {
         background: none !important;
@@ -216,7 +235,7 @@
     }
     .s-lib-box {
         border-radius: 4px;
-        box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 2px 8px #ccc;
     }
     #s-lg-guide-main {
         padding: 0;
@@ -247,11 +266,11 @@
     }
     .s-la-box-title {
         background-color: #f0f0f0;
-        border-bottom: 1px solid #5D8100;
+        border-bottom: 1px solid #007e9e;
         border-radius: 2px 2px 0px 0px !important;
     }
     .btn-default {
-        background-color: #5D8100 !important;
+        background-color: #007e9e !important;
         border-radius: 2px;
     }
     .btn-default:hover {
@@ -288,10 +307,10 @@
         margin-right: 4px;
         border-radius: 2px 2px 0px 0px;
         background-color: #E6E6E6;
-        padding: 0px 8px;
-        border-top: 1px solid #5D8100;
-        border-right: 1px solid #5D8100;
-        border-left: 1px solid #5D8100;
+        /*padding: 0px 8px;*/
+        border-top: 1px solid #007e9e;
+        border-right: 1px solid #007e9e;
+        border-left: 1px solid #007e9e;
     }
     .nav-tabs li:hover {
         background-color: #DADADA;
@@ -316,7 +335,7 @@
     .nav-tabs > li.active > a:hover,
     .nav-tabs > li.active > a:focus,
     .nav-tabs li.active {
-        background-color: #5D8100 !important;
+        background-color: #007e9e !important;
         color: white !important;
     }
     .nav-tabs li.active a {
@@ -324,13 +343,22 @@
     }
     .nav-tabs {
         padding-bottom: 1px;
-        border-bottom: 1px solid #5D8100;
+        border-bottom: 1px solid #007e9e;
         margin-bottom: 8px;
+        border-radius: 0px;
     }
     .nav-tabs ul li a {
         color: white;
         background: transparent !important;
         background-color: transparent;
         border: none !important;
+    }
+    .tab-content {
+        background-color: #ffffff;
+        padding: 5px 16px 16px 16px;
+        margin-top: -8px;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 8px #ccc;
+        border-radius: 0px 0px 2px 2px;
     }
 </style>

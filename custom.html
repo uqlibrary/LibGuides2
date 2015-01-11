@@ -11,7 +11,7 @@
     body {
         font-family: Helvetica, Arial, Roboto, sans-serif;
         font-weight: 400;
-        background: #fafafa;
+        background: #fcfcfc;
     }
     #s-lib-bc .breadcrumb,
     #s-lib-admin-bc .breadcrumb {
@@ -79,6 +79,16 @@
     .uq-footer a {
         color: white;
     }
+    .uq-line {
+        height: 62px;
+        margin: -2px -15px;
+    }
+    .s-lib-footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top: none;
+        background-color: transparent;
+    }
     .container>.navbar-header,
     .container-fluid>.navbar-header,
     .container>.navbar-collapse,
@@ -90,7 +100,11 @@
         height: 40px;
         margin-top: 10px;
         padding-right: 15px;
-        border-right: 1px solid #c6a9d1;
+    }
+    .uq-header-logo:hover,
+    .uq-header-logo:focus,
+    .uq-header-logo:active {
+        -webkit-filter: drop-shadow(0 0 1px #aaa);
     }
     .uq-library-header-logo {
         float: left;
@@ -100,9 +114,12 @@
         margin-left: 15px;
         -webkit-font-smoothing: antialiased;
     }
-    .uq-library-header-logo:hover {
+    .uq-library-header-logo:hover,
+    .uq-library-header-logo:active,
+    .uq-library-header-logo:focus {
         color: #fff;
         text-decoration: none;
+        -webkit-filter: drop-shadow(0 0 1px #aaa);
     }
     /* styles for enclosing side nav */
     .s-lg-tabs-side > .nav {
@@ -204,7 +221,7 @@
     .s-lib-box {
         border-radius: 2px;
         background-color: #fefefe;
-        box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 2px 8px #ccc;
     }
     #s-lg-guide-main {
         padding: 0;
@@ -214,7 +231,7 @@
         margin-bottom: 0;
         padding: 12px 9px;
         color: #212121;
-        font-weight: 400;
+        font-weight: 500;
         background: #fefefe;
         border-bottom: 1px solid #ccc;
     }
@@ -235,7 +252,7 @@
         margin-right: 4px;
         border-radius: 2px 2px 0px 0px;
         padding: 0px 8px;
-        border-bottom: 4px solid #fafafa;
+        border-bottom: 4px solid #fcfcfc;
         -webkit-transition: all .2s ease;
         -moz-transition: all .2s ease;
         -o-transition: all .2s ease;
@@ -282,5 +299,32 @@
     }
     #s-lg-guide-name {
         font-size: 32px;
+    }
+    .s-lg-srch-listing-meta li,
+    .s-lib-box-content li {
+        margin-left: 15px;
+    }
+    a {
+        color: #007e9e;
+    }
+    .nav>li>a:hover,
+    .nav>li>a:focus {
+        color: #007e9e;
+        text-decoration: none;
+        background-color: #fcfcfc;
+    }
+    .nav-pills>li.active>a,
+    .nav-pills>li.active>a:hover,
+    .nav-pills>li.active>a:focus {
+        background-color: #007e9e !important;
+    }
+    #s-lg-srch-results {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 16px;
+        box-shadow: 0 2px 8px #ccc;
+    }
+    #s-lg-srch-nav {
+        display: none;
     }
 </style>
