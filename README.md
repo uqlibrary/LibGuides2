@@ -9,5 +9,4 @@ There is only one file for header.html and footer.html for both LibGuides and Li
 
 custom.html refers to the codebase to be used in LibGuides' [custom] field, while libAnswers-custom.html corresponds to the [custom] field from LibAnswers.
 
-TODO: add a custom css to document changes for LibChat
 TODO: create a direct link between the LibApps and the files in this repository so you only need to update this repository for the changes to appear.
