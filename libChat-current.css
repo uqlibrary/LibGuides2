@@ -1,0 +1,41 @@
+div,
+button {
+    font-family: "Roboto", sans serif, Helvetica, Arial !important;
+}
+
+a {
+    color: #007e9e !important;
+}
+
+a:hover {
+    color: #006880 !important;
+}
+
+a i {
+    text-decoration: none;
+    color: #333 !important;
+}
+
+h2 {
+    color: #333 !important;
+}
+
+.s-la-widget .btn-sm {
+    transition: background-color 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 2px !important;
+    background-color: #007e9e !important;
+    border-color: transparent !important;
+    color: #fff !important;
+}
+
+.s-la-widget .btn-sm:hover {
+    transition: background-color 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #006880 !important;
+}
+
+.s-la-widget .btn-sm:active,
+.btn-sm:focus,
+{
+    transition: background-color 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #00576b !important;
+}
