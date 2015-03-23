@@ -426,3 +426,10 @@ a {
 #s-lib-public-main #s-lg-index-list #s-lg-general-accordion .alert-info {
   display: none;
 }
+
+/* Multi-level menu - display arrow-down to indicate a dropdown */
+#s-lg-guide-tabs li.dropdown {
+  background: url("https://dl.dropboxusercontent.com/u/590445/sidemenu-theming/arrow-down.png") no-repeat scroll right 12px transparent;
+  padding-right: 8px;
+  margin-right: 12px;
+}
