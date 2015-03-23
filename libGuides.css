@@ -421,3 +421,8 @@ a {
   padding: 10px 15px;
   font-weight: 400;
 }
+
+/* Front page: Hide info boxes with subject guide URL from subject list */
+#s-lib-public-main #s-lg-index-list #s-lg-general-accordion .alert-info {
+  display: none;
+}
