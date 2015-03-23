@@ -433,3 +433,21 @@ a {
   padding-right: 8px;
   margin-right: 12px;
 }
+
+/* Front page - search box fix */
+#s-lg-hp-nav #s-lg-hp-nav-bottom form[role=search].pull-right {
+ clear: both;
+ float: none !important;
+}
+#s-lg-hp-nav #s-lg-hp-nav-bottom form[role=search] .form-group {
+  width: 80%;
+}
+#s-lg-hp-nav #s-lg-hp-nav-bottom form[role=search] .form-control {
+  width: 100%;
+}
+#s-lg-hp-nav #s-lg-hp-nav-bottom form[role=search] .btn-default {
+  color: #FFFFFF;
+  background-color: #007E9E;
+}
+  border-color: #007E9E;
+  
