@@ -444,7 +444,7 @@ clear: both;
  float: none !important;
 }
 #s-lg-hp-nav #s-lg-hp-nav-bottom form[role=search] .form-group {
-  width: 77%;
+  width: 70%;
 }
 #s-lg-hp-nav #s-lg-hp-nav-bottom form[role=search] .form-control,
 #s-lg-hp-nav #s-lg-hp-nav-bottom form[role=search] .s-lg-public-search-field {
