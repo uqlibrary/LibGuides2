@@ -469,4 +469,10 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
 }
+.panel-group .panel {
+  border-radius: 2px;
+}
+.panel-default {
+  border-color: #ccc;
+}
   
