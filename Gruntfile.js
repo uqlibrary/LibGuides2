@@ -114,8 +114,6 @@ module.exports = function (grunt) {
 
   grunt.registerTask('deploy', [
     'clean:dist',
-    'compass:dist',
-    'jshint',
     'copy',
     'uglify',
     'cssmin:dist',
