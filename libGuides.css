@@ -484,3 +484,45 @@ ul, ol {
 .panel-default {
   border-color: #ccc;
 }
+
+#s-lg-tabs-container .nav-pills>li>#s-lg-admin-tab-anchor {
+background: none !important;
+}
+.ui-tabs-nav {
+background: transparent;
+border: none;
+}
+.ui-tabs .ui-tabs-nav li {
+border: none;
+background: #fafafa;
+}
+.ui-tabs .ui-tabs-nav .ui-state-default {
+background: transparent;
+border-bottom: 4px solid transparent !important;
+  -webkit-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  -ms-transition: all .1s ease;
+  transition: all .1s ease;
+}
+.ui-tabs .ui-tabs-nav .ui-state-default:hover, .ui-state-hover {
+background: transparent;
+border-bottom: 4px solid #8CB800 !important;
+  -webkit-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  -ms-transition: all .1s ease;
+  transition: all .1s ease;
+}
+.ui-tabs .ui-tabs-nav .ui-state-active, .ui-tabs .ui-tabs-nav .ui-state-active:hover {
+background: transparent;
+border: none;
+border-bottom: 4px solid #8CB800 !important;
+cursor: text;
+}
+
+/* PT94260140 - h3/h4 headers font-size in a box container */
+.s-lib-box-container .s-lib-box-content h3,
+.s-lib-box-container .s-lib-box-content h4 {
+font-size: 13px;
+}
